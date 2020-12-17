@@ -2,3 +2,4 @@
 
 - Criando um projeto Spring boot do zero
 - Hello World, a primeira endpoint
+- Configuration e Beans
