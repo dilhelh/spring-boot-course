@@ -4,4 +4,5 @@
 - Hello World, a primeira endpoint
 - Configuration e Beans
 - Trabalhando com múltiplos ambientes e profiles
-- Criando anotações de configuração customizadas 
+- Criando anotações de configuração customizadas
+- Conectando com banco de dados em memória (H2)
