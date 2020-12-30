@@ -4,3 +4,4 @@
 - Hello World, a primeira endpoint
 - Configuration e Beans
 - Trabalhando com múltiplos ambientes e profiles
+- Criando anotações de configuração customizadas 
