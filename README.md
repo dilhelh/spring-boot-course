@@ -7,3 +7,4 @@
 - Criando anotações de configuração customizadas
 - Conectando com banco de dados em memória (H2)
 - Incluindo scripts de criação do banco de dados
+- Criando as classes de modelo
