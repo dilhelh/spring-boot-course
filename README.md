@@ -10,3 +10,4 @@
 - Criando as classes de modelo
 - Salvando e recuperando clientes
 - Concluindo o cadastro de clientes
+- Persistindo entidades com Entity Manager

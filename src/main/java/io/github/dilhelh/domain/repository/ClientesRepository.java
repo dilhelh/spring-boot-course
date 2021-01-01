@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityManager;
 import java.util.List;
 
 @Repository
@@ -22,8 +24,13 @@ public class ClientesRepository {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public void save(Cliente cliente) {
-        getJdbcTemplate().update(INSERT, new Object[] {cliente.getNome()});
+    @Autowired
+    private EntityManager entityManager;
+
+    @Transactional
+    public Cliente save(Cliente cliente) {
+        getEntityManager().persist(cliente);
+        return cliente;
     }
 
     public List<Cliente> getAll(){
@@ -54,5 +61,9 @@ public class ClientesRepository {
 
     public JdbcTemplate getJdbcTemplate() {
         return jdbcTemplate;
+    }
+
+    public EntityManager getEntityManager() {
+        return entityManager;
     }
 }
