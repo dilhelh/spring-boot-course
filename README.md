@@ -9,3 +9,4 @@
 - Incluindo scripts de criação do banco de dados
 - Criando as classes de modelo
 - Salvando e recuperando clientes
+- Concluindo o cadastro de clientes
