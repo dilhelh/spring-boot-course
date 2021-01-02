@@ -11,3 +11,4 @@
 - Salvando e recuperando clientes
 - Concluindo o cadastro de clientes
 - Persistindo entidades com Entity Manager
+- Refatorando as demais operações para o JPA

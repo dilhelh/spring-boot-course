@@ -23,6 +23,8 @@ public class Cliente {
         this.nome = nome;
     }
 
+    public Cliente(){}
+
     public Integer getId() {
         return id;
     }
