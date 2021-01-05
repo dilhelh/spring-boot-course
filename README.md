@@ -13,3 +13,4 @@
 - Persistindo entidades com Entity Manager
 - Refatorando as demais operações para o JPA
 - Introdução aos repositórios Spring Data
+- [Query Methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#appendix.query.method.subject)
