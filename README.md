@@ -16,3 +16,4 @@
 - [Query Methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#appendix.query.method.subject)
 - Queries customizadas
 - Mapeando as outras entidades
+- Fazendo busca por entidades mapeadas e corrigindo precisão do campo preço
