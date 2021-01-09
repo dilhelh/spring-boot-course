@@ -18,3 +18,4 @@
 - Mapeando as outras entidades
 - Fazendo busca por entidades mapeadas e corrigindo precisão do campo preço
 - Requisição GET com parâmetros e Response Entity
+- Requisição POST e Request Body
